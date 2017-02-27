@@ -36,4 +36,3 @@ fi
    echo -e "\e[36m"
    ./tg/tgcli -s ./bot/bot.lua $@
 fi
-
