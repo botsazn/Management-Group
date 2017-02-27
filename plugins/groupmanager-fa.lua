@@ -2996,9 +2996,7 @@ _Send Msg To All Groups_
 ⚙*!autoleave disable*
 _set Auto leave_
 
-_You Can Use_ *[!/#]* _To Run The Commands_
-_Change the language to farsi : !setlang fa_
-]]
+_Our Channel: @PequeRobotCH
 
 elseif lang then
 text = [[
@@ -3021,7 +3019,7 @@ text = [[
 ➖➖➖➖➖
 در حال حاضر زبان ربات فارسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang en*
-...
+-Our Channel: @PequeRobotCH
 ]]
 end
 return text
@@ -3078,7 +3076,7 @@ text2 = [[
 🔓*باز کردن فحش*
 〰〰〰〰〰
 در زدن دستورات به فاصله حروف دقت کنید
-...
+-Our Channel: @PequeRobotCH
 ]]
 return text2
 end
@@ -3154,7 +3152,7 @@ text3 = [[
 🔊*!unmt*
 〰〰〰〰〰
 در زدن دستورات به فاصله حروف دقت کنید
-...
+-Our Channel: @PequeRobotCH
 ]]
 return text3
 end
@@ -3259,15 +3257,15 @@ text4 = [[
 ⚙*!autoleave enable*
 ⚙*!autoleave disable*
 💬 تنظیم خارج شدن ربات
-...
-در زدن دستورات به فاصله حروف دقت کنید
+-Our Channel: @PequeRobotCH
 ]]
 return text4
 end
 
 if matches[1] == "انلاینی" and is_mod(msg) then
 text5 = [[
-😎آنلاینم عزیز و حواسم به گروه هست 
+انلاینم بابایی😍
+-Our Channel: @PequeRobotCH		
 ]]
 return text5 
 end
@@ -3441,8 +3439,5 @@ patterns ={
 run=run,
 pre_process = pre_process
 }
--- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+-- @PequeRobotCH
+-- @http://pequerobot.com
