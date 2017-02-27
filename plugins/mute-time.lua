@@ -35,6 +35,5 @@ return {
   run = run,
   pre_process = pre_process
 }
--- http://permag.ir
--- @permag_ir
--- @permag_bots
+-- @PequeRobotCH
+-- http://pequerobot.com
