@@ -2996,7 +2996,7 @@ _Send Msg To All Groups_
 ⚙*!autoleave disable*
 _set Auto leave_
 
--Our Channle: @PequeRobotCH
+-Our Channle: @PaqueRobotCH
 ]]
 
 elseif lang then
@@ -3021,7 +3021,7 @@ text = [[
 ➖➖➖➖➖
 در حال حاضر زبان ربات فارسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang en*
--Our Channle: @PequeRobotCH
+-Our Channle: @PaqueRobotCH
 ]]
 end
 return text
@@ -3077,7 +3077,7 @@ text2 = [[
 🔒*!lock fosh*
 🔓*!unlock fosh*
 〰〰〰〰〰
--Our Channle: @PequeRobotCH
+-Our Channle: @PaqueRobotCH
 ]]
 return text2
 end
@@ -3152,7 +3152,7 @@ text3 = [[
 🔇*!mt 0 1*
 🔊*!unmt*
 〰〰〰〰〰
--Our Channle: @PequeRobotCH
+-Our Channle: @PaqueRobotCH
 ]]
 return text3
 end
@@ -3260,15 +3260,14 @@ text4 = [[
 ⚙*!autoleave enable*
 ⚙*!autoleave disable*
 💬 تنظیم خارج شدن ربات
--Our Channle: @PequeRobotCH
+-Our Channle: @PaqueRobotCH
 ]]
 return text4
 end
 
 if matches[1] == "انلاینی" and is_mod(msg) then
 text5 = [[
-انلاینم بابایی😍
--Our Channle: @PequeRobotCH	
+انلاینم بابایی😍	
 ]]
 return text5 
 end
@@ -3442,5 +3441,5 @@ run=run,
 pre_process = pre_process
 }
 
--- @PequeRobotCH
--- http://pequerobot.com
+-- @PaqueRobotCH
+-- http://paquerobot.com
