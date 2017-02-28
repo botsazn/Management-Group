@@ -888,5 +888,5 @@ elseif msg.content_.ID == "MessageGame" then
   end
 
 end
--- @pequerobotCH
--- http://pequerobot.com
+-- @paquerobotCH
+-- http://paquerobot.com
