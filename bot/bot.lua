@@ -94,7 +94,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
+    info_text = [[》paquerobot V3
 
 🔰Our channel :
 》@PaqueRobotCH《
