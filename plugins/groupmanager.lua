@@ -2996,8 +2996,8 @@ _Send Msg To All Groups_
 ⚙*!autoleave disable*
 _set Auto leave_
 
--Our Channle: @PaqueRobotCH
-]]
+قدرت گرفته از: 
+@AccSmartBot]]
 
 elseif lang then
 text = [[
@@ -3010,18 +3010,19 @@ text = [[
 #مدیریت
 
 🔐برای مشاهده دستورات قفلی دستور زیر را ارسال کنید
-#قفل ها
+#قفل
 
 🔇برای مشاهده دستورات ممنوعیت دستور زیر را ارسال کنید
 #ممنوع
 
 👽آگاهی از آنلاین بودن ربات
-#انلاینی پسرم
+#انلاینی 
 
 ➖➖➖➖➖
 در حال حاضر زبان ربات فارسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang en*
--Our Channle: @PaqueRobotCH
+			قدرت گرفته از: 
+@AccSmartBot
 ]]
 end
 return text
@@ -3077,8 +3078,9 @@ text2 = [[
 🔒*!lock fosh*
 🔓*!unlock fosh*
 〰〰〰〰〰
--Our Channle: @PaqueRobotCH
-]]
+قدرت گرفته از: 
+@AccSmartBot
+	]]
 return text2
 end
 
@@ -3152,7 +3154,8 @@ text3 = [[
 🔇*!mt 0 1*
 🔊*!unmt*
 〰〰〰〰〰
--Our Channle: @PaqueRobotCH
+قدرت گرفته از: 
+@AccSmartBot
 ]]
 return text3
 end
@@ -3260,14 +3263,15 @@ text4 = [[
 ⚙*!autoleave enable*
 ⚙*!autoleave disable*
 💬 تنظیم خارج شدن ربات
--Our Channle: @PaqueRobotCH
+قدرت گرفته از: 
+@AccSmartBot
 ]]
 return text4
 end
 
-if matches[1] == "انلاینی پسرم" and is_mod(msg) then
+if matches[1] == "انلاینی" and is_mod(msg) then
 text5 = [[
-انلاینم بابایی😍	
+انلاینم و حواسم به گروهت هست	
 ]]
 return text5 
 end
